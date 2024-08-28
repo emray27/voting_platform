@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
-// Uncomment and configure dotenv if you're using a .env file
-// require("dotenv").config();
+
+require("dotenv").config();
 
 const jwtAuthMiddleware = (req, res, next) => {
   // First, check if the request headers have the authorization header
